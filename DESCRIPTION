@@ -1,0 +1,32 @@
+Package: csrnaseq
+Type: Package
+Title: Identifying relevant covariates in RNA-seq analysis by pseudo-variable augmentation
+Version: 0.1.0
+Author: Yet Nguyen <tienyettoan@gmail.com>
+Maintainer: Yet Nguyen <tienyettoan@gmail.com>
+Description: The package implements a covariate selection strategy by adding pseudo-variables to control for false selection rate, then using the selected covariates in RNA-seq differential expression analysis.
+Depends: R (>= 3.3.3)
+Imports: 
+  AUC (>= 0.3.0),
+    edgeR (>= 3.16.5),
+    ggplot2 (>= 2.2.1),
+    plyr (>= 1.8.8),
+    graphics,
+    limma (>= 3.30.13),
+    MASS (>= 7.3-45),
+    Matrix (>= 1.2-8), 
+    nlme (>= 3.1-131),
+    parallel,
+    reshape (>= 0.8.6),
+    stats,
+    statmod (>= 1.4.29),
+    sva (>=	3.22.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygeneNote: 6.0.1
+Suggests: knitr, 
+    rmarkdown, 
+    testthat
+VinnetteBuilder: knitr
+RoxygenNote: 7.3.2
