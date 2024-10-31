@@ -8,7 +8,7 @@
 
 The R package `csrnaseq` performs a backward variable selection
 procedure using pseudo-variables for RNA-seq differential expression
-analysis (Nguyen and Nettleton 2023+). The idea is to select the most
+analysis (Nguyen and Nettleton 2024+). The idea is to select the most
 relevant covariates such that the false selection rate is below a
 pre-specified threshold. The method is built upon the approach of Wu et
 al. (2007). While Wu et al. (2007)’s method works for one response
@@ -123,9 +123,10 @@ R29. <https://doi.org/10.1186/gb-2014-15-2-r29>.
 
 <div id="ref-nguyen2023" class="csl-entry">
 
-Nguyen, Y., and Nettleton, D. S. (2023+), “Identifying relevant
-covariates in <span class="nocase">RNA-seq</span> analysis by
-pseudo-variable augmentation.”
+Nguyen, Y., and Nettleton, D. (2024+), “Identifying relevant covariates
+in <span class="nocase">RNA-seq</span> analysis by pseudo-variable
+augmentation,” *Journal of Agricultural, Biological and Environmental
+Statistics*, accepted.
 
 </div>
 
